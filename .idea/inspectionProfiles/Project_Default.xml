@@ -675,7 +675,7 @@
     <inspection_tool class="ClassName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="ClassNameDiffersFromFileName" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ClassNamePrefixedWithPackageName" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="ClassNameSameAsAncestorName" enabled="true" level="WARNING" enabled_by_default="false">
+    <inspection_tool class="ClassNameSameAsAncestorName" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="openapi" level="WARNING" enabled="true" />
     </inspection_tool>
     <inspection_tool class="ClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false">
@@ -1153,7 +1153,7 @@
       <option name="ignoreGetMessage" value="false" />
       <option name="ignoreCantWrap" value="false" />
     </inspection_tool>
-    <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="true" level="ERROR" enabled_by_default="false">
+    <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="openapi" level="ERROR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="ExceptionPackage" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -3567,7 +3567,7 @@
     <inspection_tool class="UnusedReceiverParameter" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="UnusedSymbol" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="ERROR" enabled_by_default="false">
+    <inspection_tool class="UpperCaseFieldNameNotConstant" enabled="true" level="WARNING" enabled_by_default="true">
       <scope name="openapi" level="ERROR" enabled="true" />
     </inspection_tool>
     <inspection_tool class="Use of postfix method call" enabled="false" level="WARNING" enabled_by_default="false" />
